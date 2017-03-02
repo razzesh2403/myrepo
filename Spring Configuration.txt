@@ -1,0 +1,6 @@
+
+@SpringBootApplication is equal to : 
+	- @Configuration equal to  AnnotationConfigWebApplicationContext(in web context)
+		-web application context is used to register classes and for classpath scanning.
+	- @EnableAutoConfiguration
+	- @ComponentScan
